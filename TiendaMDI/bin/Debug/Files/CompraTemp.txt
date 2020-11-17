@@ -1,0 +1,15 @@
+1,Sal,Sal refisal de cocina barata con un gran sabor,8/12/2020,12/12/2022
+2,Yogurt,Yogurt Alpina con cereales incluidos y un  delicioso sabor pasas,11/11/2020,11/12/2020
+3,Manzana,Manzana dulce 100% sucares  sin sabores artificiales,11/11/2020,11/12/2020
+4,Manzana,Manzana agria 100% sucares  sin sabores artificiales,15/11/2020,15/11/2020
+5,Manzana,Manzana acaramelada 100% sucares  sin sabores artificiales,15/11/2020,15/11/2020
+6,Sal,Sal Nacional de cocina barata con un gran sabor,8/12/2020,12/12/2022
+7,Sal,Sal importada de cocina barata con un gran sabor,8/12/2020,12/12/2022
+8,Sal,Sal de alta pureza de cocina barata con un gran sabor,8/12/2020,12/12/2022
+9,Yogurt,Yogurt Colanta de cocina barata con un gran sabor,8/12/2020,12/12/2022
+10,Yogurt,Yogurt de frutos rojos sin colorantes ni sabores artificiales,8/12/2020,12/12/2022
+11,Yogurt,Yogurt Nacional sin colorantes ni sabores artificiales,8/12/2020,12/12/2022
+12,Yogurt,Yogurt importado sin colorantes ni sabores artificiales,8/12/2020,12/12/2022
+13,Manzana,Manzana importada sin colorantes ni sabores artificiales,8/12/2020,12/12/2022
+14,Manzana,Manzana verde sin colorantes ni sabores artificiales,8/12/2020,12/12/2022
+15,Manzana,Manzana criolla sin colorantes ni sabores artificiales,8/12/2020,12/12/2022

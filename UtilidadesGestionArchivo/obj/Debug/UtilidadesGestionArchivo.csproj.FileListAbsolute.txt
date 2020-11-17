@@ -1,0 +1,7 @@
+C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\UtilidadesGestionArchivo\bin\Debug\UtilidadesGestionArchivo.exe.config
+C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\UtilidadesGestionArchivo\bin\Debug\UtilidadesGestionArchivo.exe
+C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\UtilidadesGestionArchivo\bin\Debug\UtilidadesGestionArchivo.pdb
+C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\UtilidadesGestionArchivo\obj\Debug\UtilidadesGestionArchivo.csprojAssemblyReference.cache
+C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\UtilidadesGestionArchivo\obj\Debug\UtilidadesGestionArchivo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\UtilidadesGestionArchivo\obj\Debug\UtilidadesGestionArchivo.exe
+C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\UtilidadesGestionArchivo\obj\Debug\UtilidadesGestionArchivo.pdb

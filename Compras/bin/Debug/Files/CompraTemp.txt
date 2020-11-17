@@ -1,0 +1,5 @@
+2,Yogurt,Yogurt Alpina con cereales incluidos y un  delicioso sabor pasas,11/11/2020,11/12/2020
+9,Yogurt,Yogurt Colanta de cocina barata con un gran sabor,8/12/2020,12/12/2022
+10,Yogurt,Yogurt de frutos rojos sin colorantes ni sabores artificiales,8/12/2020,12/12/2022
+11,Yogurt,Yogurt Nacional sin colorantes ni sabores artificiales,8/12/2020,12/12/2022
+12,Yogurt,Yogurt importado sin colorantes ni sabores artificiales,8/12/2020,12/12/2022

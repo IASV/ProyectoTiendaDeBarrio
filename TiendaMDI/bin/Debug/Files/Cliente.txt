@@ -1,0 +1,7 @@
+3,1065917492,FORERO CLARO JUAN CAMILO,30/03/2000,Masculino,3105653273,jcforero@unicesar.edu.co,CRA 30A NO. 8-61,Casado
+4,1003245588,JUAN PEREZ GUTIERREZ,2/02/2000,Masculino,3186413244,juanperezgutierrez@gmail.com,Calle 12 11-22,Casado
+5,1003245589,CAMILA PAEZ MARTINES,8/02/2000,Femenino,3186413289,camilapaezmartines@gmail.com,Calle 14 4-44,Casado
+6,1003245587,ANDREA PEREZ MARTINEZ,2/07/2000,Femenino,3186413233,andreaperezmartinez@gmail.com,Calle 15 5-55,Casado
+7,1003245566,CARLOS OSORIO ARMENTA,6/12/1999,Masculino,3186412233,carlososorioarmenta@gmail.com,Calle 5 54-55,Casado
+8,1003245511,Jhonatan arias villalba,8/10/2005,Masculino,3186413232,jhonatanariasvillalba@gmail.com,Calle 33 44-33,Casado
+1,1003245521,JUAN MENECES CASERES PEREZ,11/12/2001,Masculino,3184153244,juanmeneces@gmail.com,Calle 23 33-33,Soltero

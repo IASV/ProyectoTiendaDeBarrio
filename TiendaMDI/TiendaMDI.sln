@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaMDI", "TiendaMDI.csproj", "{AAF345C4-FCF1-43F3-9C2E-169F790C6379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAF345C4-FCF1-43F3-9C2E-169F790C6379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF345C4-FCF1-43F3-9C2E-169F790C6379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF345C4-FCF1-43F3-9C2E-169F790C6379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF345C4-FCF1-43F3-9C2E-169F790C6379}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD450781-2280-4D71-9D69-A0E41121439A}
+	EndGlobalSection
+EndGlobal
