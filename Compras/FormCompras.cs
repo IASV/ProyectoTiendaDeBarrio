@@ -27,9 +27,11 @@ namespace Compras
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Cliente.LoadList();
+            Venta.Venta.LoadList();
             Cliente = null;
             Vendedor = null;
-            //labelMessageInfoAlert.Text = "";
+            labelMessageInfoAlert.Text = "";
             GestionArchivo gs = new GestionArchivo();
             gs.Duplicate(Producto.path, "Files/CompraTemp.txt");
             ImprimirData(panelListProducts, "Files/CompraTemp.txt", Producto.Titles).Show();
@@ -75,15 +77,10 @@ namespace Compras
         {
             GestionArchivo gs = new GestionArchivo(boxAdd.PathLista);
             gs.DeleteFile();
-            boxAdd.Titles = new string[] { "Nombre", "Infomación" };
+            boxAdd.Titles = new string[] { "Nombre", "Información" };
             boxAdd.SearchFor = "Nombre";
             boxAdd.panel = panelListBuy;
             boxAdd.DeleteFile();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void panelListBuy_ControlAdded(object sender, ControlEventArgs e)
@@ -97,29 +94,32 @@ namespace Compras
 
         private void buttonBuy_Click(object sender, EventArgs e)
         {
+            Venta.Venta venta = new Venta.Venta();
             FormFacturaImprimir factura = new FormFacturaImprimir();
+            factura.Cliente = Cliente;
+            
             factura.Show();
         }
 
         private void buttonOk_Click(object sender, EventArgs e)
         {
-            //string cedClient = textBoxCedClient.Text;
-            //if (cedClient != "")
-            //{
-            //    Cliente = Cliente.SearchCed(Convert.ToInt64(cedClient));
-            //    if (Cliente != null)
-            //    {
-            //        labelMessageInfoAlert.BackColor = Color.Green;
-            //        labelMessageInfoAlert.Text = "¡Búsqueda exitosa!";
-            //        panelDataClient.Visible = false;
-            //        panel1.Visible = true;
-            //    }
-            //    else
-            //    {
-            //        labelMessageInfoAlert.BackColor = Color.Red;
-            //        labelMessageInfoAlert.Text = "¡Cliente no encontrado!";
-            //    }
-            //}
+            string cedClient = textBoxCedClient.Text;
+            if (cedClient != "")
+            {
+                Cliente = Cliente.SearchCed(Convert.ToInt64(cedClient));
+                if (Cliente != null)
+                {
+                    labelMessageInfoAlert.BackColor = Color.Green;
+                    labelMessageInfoAlert.Text = "¡Búsqueda exitosa!";
+                    panelDataClient.Visible = false;
+                    tableLayoutPanelFatherBuy.Enabled = true;
+                }
+                else
+                {
+                    labelMessageInfoAlert.BackColor = Color.Red;
+                    labelMessageInfoAlert.Text = "¡Cliente no encontrado!";
+                }
+            }
         }
     }
 }

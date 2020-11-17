@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonSave = new System.Windows.Forms.Button();
             this.panelProductos = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBoxCliente = new System.Windows.Forms.TextBox();
@@ -42,8 +44,6 @@
             this.dateTimePickerFechaFactura = new System.Windows.Forms.DateTimePicker();
             this.label1Fecha = new System.Windows.Forms.Label();
             this.Titulolabel1 = new System.Windows.Forms.Label();
-            this.buttonSave = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +64,40 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(629, 437);
             this.panel1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(100, 399);
+            this.button1.Margin = new System.Windows.Forms.Padding(30);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(73, 29);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Imprimir";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // buttonSave
+            // 
+            this.buttonSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonSave.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonSave.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
+            this.buttonSave.FlatAppearance.BorderSize = 0;
+            this.buttonSave.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonSave.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.buttonSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSave.Location = new System.Drawing.Point(13, 399);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(30);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(73, 29);
+            this.buttonSave.TabIndex = 23;
+            this.buttonSave.Text = "Guardar";
+            this.buttonSave.UseVisualStyleBackColor = false;
             // 
             // panelProductos
             // 
@@ -140,6 +174,7 @@
             // 
             this.textBoxNumeroFactura.Location = new System.Drawing.Point(512, 84);
             this.textBoxNumeroFactura.Name = "textBoxNumeroFactura";
+            this.textBoxNumeroFactura.ReadOnly = true;
             this.textBoxNumeroFactura.Size = new System.Drawing.Size(100, 20);
             this.textBoxNumeroFactura.TabIndex = 18;
             // 
@@ -182,40 +217,6 @@
             this.Titulolabel1.TabIndex = 14;
             this.Titulolabel1.Text = "TESLA SHOP";
             // 
-            // buttonSave
-            // 
-            this.buttonSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonSave.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonSave.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.buttonSave.FlatAppearance.BorderSize = 0;
-            this.buttonSave.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
-            this.buttonSave.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.buttonSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSave.Location = new System.Drawing.Point(13, 399);
-            this.buttonSave.Margin = new System.Windows.Forms.Padding(30);
-            this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(73, 29);
-            this.buttonSave.TabIndex = 23;
-            this.buttonSave.Text = "Guardar";
-            this.buttonSave.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(100, 399);
-            this.button1.Margin = new System.Windows.Forms.Padding(30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(73, 29);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Imprimir";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // FormFacturaImprimir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,6 +224,7 @@
             this.ClientSize = new System.Drawing.Size(629, 437);
             this.Controls.Add(this.panel1);
             this.Name = "FormFacturaImprimir";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Factura";
             this.Load += new System.EventHandler(this.FormFactura_Load);
             this.panel1.ResumeLayout(false);

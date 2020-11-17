@@ -36,11 +36,11 @@ namespace Factura
             Factura.LoadList();
 
             factura = new Factura();
-
-            //textBoxCliente.Text = Cliente.Nombre;
-            //textBoxDireccion.Text = Cliente.Direccion;
-            //textBoxTelefono.Text = Cliente.Telefono.ToString();
-            //textBoxNumeroFactura.Text = factura.IdFactura.ToString();
+            
+            textBoxCliente.Text = Cliente.Nombre;
+            textBoxDireccion.Text = Cliente.Direccion;
+            textBoxTelefono.Text = Cliente.Telefono.ToString();
+            textBoxNumeroFactura.Text = factura.IdFactura.ToString();
 
             dateTimePickerFechaFactura.Value = DateTime.Now;
 

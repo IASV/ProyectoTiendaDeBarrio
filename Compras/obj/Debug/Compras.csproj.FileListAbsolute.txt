@@ -28,4 +28,3 @@ C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\Compras\bin\Debug\Venta.exe.confi
 C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\Compras\bin\Debug\TiendaMDI.exe
 C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\Compras\bin\Debug\TiendaMDI.pdb
 C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\Compras\bin\Debug\TiendaMDI.exe.config
-C:\Users\Usuario\Dropbox\Grupo1\ProyectoTienda\Compras\obj\Debug\Compras.Form1.resources
